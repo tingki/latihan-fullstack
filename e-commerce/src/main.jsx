@@ -19,7 +19,6 @@ const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
-    basename: "/latihan-fullstack/",
     path: "/",
     element: <Login />,
   },
@@ -39,7 +38,7 @@ const router = createBrowserRouter([
     path: "/logout",
     element: <Logout />
   }
-]);
+],{basename: "/latihan-fullstack/"});
 
 
 
