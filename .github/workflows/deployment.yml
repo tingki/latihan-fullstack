@@ -18,11 +18,11 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependancies
-        working-directory: /e-commerce/
+        working-directory: e-commerce/
         run: npm install
 
       - name: Build project
-        working-directory: /e-commerce/
+        working-directory: e-commerce/
         run: npm run build
 
       - name: Upload production-ready build files
