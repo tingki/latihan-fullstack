@@ -16,7 +16,7 @@ export default function footer() {
                     </div>
 
                 </div>
-                <p className="text-center text-white">&copy; 2023 T-SHOP awe, Inc</p>
+                <p className="text-center text-white">&copy; 2023 T-SHOP, Inc</p>
             </footer>
         </>
     )
