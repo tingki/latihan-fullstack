@@ -17,9 +17,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
 
-      - name: Install dependencies
-        
-        uses: bahmutov/npm-install@v1
+      - name: Install dependancies
+        working-directory: /e-commerce/
+        run: npm install
 
       - name: Build project
         working-directory: /e-commerce/
