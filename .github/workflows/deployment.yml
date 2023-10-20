@@ -4,6 +4,7 @@ on:
     branches: [main]
 
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +13,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version : 12
-        
-      - run : npm run --prefix .\e-commerce dev 
+      - working-directory: ./ecommerce/
+        run : npm run dev 
       - uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: master
