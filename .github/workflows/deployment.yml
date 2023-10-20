@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version : 12
-      - working-directory: ./ecommerce/
+      - working-directory: ./e-commerce/
         run : npm run dev 
       - uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
