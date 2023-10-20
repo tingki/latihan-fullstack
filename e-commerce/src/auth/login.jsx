@@ -97,7 +97,7 @@ function BasicExample() {
                     </ul>
                 </div >
                 <div className=' p-5 rounded-4 login-form'>
-                    <center><img src='./img/logo.png' className='img-fluid' /></center>
+                    <center><img src='../../public/img/logo.png' className='img-fluid' /></center>
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className='text-light'>Email address</Form.Label>
